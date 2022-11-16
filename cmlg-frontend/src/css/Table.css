@@ -1,0 +1,93 @@
+thead th {
+    white-space: nowrap;
+}
+
+thead th.ascending::after {
+    content: ' \2191';
+}
+
+thead th.descending::after {
+    content: ' \2193';
+}
+
+thead th:hover {
+    cursor: pointer;
+}
+
+thead th {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.table td, .table th {
+    border-top: 0px;
+}
+
+td:nth-child(1) {
+    position: sticky;
+    left: 0;
+    z-index: 200;
+}
+
+
+th:nth-child(1) {
+    left: 0;
+    z-index: 300;
+    font-weight: bold;
+}
+
+th:nth-child(2){
+    z-index: 200;
+}
+
+td:nth-child(2) {
+    position: sticky;
+    z-index: 100;
+}
+
+tr:nth-child(odd) > td:nth-child(2) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(even) > td:nth-child(2) {
+    background: white;
+}
+
+tr:nth-child(odd) > td:nth-child(1) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(even) > td:nth-child(1) {
+    background: white;
+}
+
+
+
+
+/* dark mode css */
+
+.table-dark thead th{
+    background-color: black;
+}
+
+
+.table-dark tr:nth-child(odd) > td:nth-child(2) {
+    background: #3e444a;
+}
+
+.table-dark  tr:nth-child(even) > td:nth-child(2) {
+    background: #343a40;
+}
+
+.table-dark tr:nth-child(odd) > td:nth-child(1) {
+    background: #3e444a;
+}
+
+.table-dark tr:nth-child(even) > td:nth-child(1) {
+    background: #343a40;
+}
+

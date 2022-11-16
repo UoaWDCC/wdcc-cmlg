@@ -1,0 +1,28 @@
+.search-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table-div {
+    overflow: scroll;
+    flex: 1;
+}
+
+.pagination {
+    margin-left: auto;
+    margin-right: 0;
+    padding: 5px;
+    bottom: 0;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+
+.dark-mode-header{
+    background-color:black;
+}

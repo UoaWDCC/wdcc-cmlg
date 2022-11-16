@@ -1,0 +1,33 @@
+.aboutUsPage {
+    overflow: auto;
+    max-Height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#mainTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+#smallTitle {
+    font-size: 25px;
+    text-align: left;
+}
+
+#version {
+    font-size: 16px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode h1 {
+    color:white;
+}
