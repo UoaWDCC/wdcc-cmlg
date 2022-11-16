@@ -7,6 +7,9 @@ The application allows users to see a table contains translations in different l
 Users are also able to search for keywords in real-time and display optional languages. 
 In the future, we will allow users to download the table into a .csv file, so users can migrate the data into other formats.
 
+![image](https://user-images.githubusercontent.com/19633284/202060232-caefbc16-cfc9-4235-851e-04e2ebc3df17.png)
+
+
 ## Accessing the website
 
 The website is currently deployed at cmlg-prod.wdcc.co.nz.
