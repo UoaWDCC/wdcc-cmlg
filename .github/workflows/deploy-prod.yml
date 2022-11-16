@@ -6,6 +6,9 @@ on:
 jobs:
   DeployClient:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./cmlg-frontend
     
     steps:
       - uses: actions/checkout@v3
@@ -27,7 +30,7 @@ jobs:
         with:
         
           # Build path (path is excluded due to parent: false flag)
-          path: 'build'
+          path: './cmlg-frontend/build'
           parent: false
           
           # Bucket to add contents into
